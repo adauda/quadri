@@ -20,9 +20,12 @@ setTimeout("rotate()", 3 * 1000)
 </script>
 <style>
 html {
-	overflow: hidden;
-	height: 100%;
-	background: #fff; /* #bcbdc7 changed to #fff */ 
+	/*overflow: hidden;*/
+	overflow:scroll;
+	/*height: 100%;*/
+	background: #fff; /* #bcbdc7 changed to #fff */
+	margin: 0;
+	padding: 0;
 }
 body {
 	overflow: auto;
@@ -31,7 +34,8 @@ body {
 	margin: 0 auto; /* center */
 	padding:5px;
 	border: 1px solid #660000;
-	border-width: 0 3px;
+	/*border-width: 0 3px;*/
+	border-width: 0 0px;
 	background: #fff;
 	font-family:Arial, Helvetica, sans-serif;
 }
